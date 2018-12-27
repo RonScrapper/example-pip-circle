@@ -25,4 +25,4 @@ jobs:
             python setup.py install
             python3 -m venv venv
             . venv/bin/activate
-            <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
+            bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
