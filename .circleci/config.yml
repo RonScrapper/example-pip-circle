@@ -25,5 +25,5 @@ jobs:
             python setup.py install
             python3 -m venv venv
             . venv/bin/activate
-            curl --user $530faa44-3804-4a12-98e9-9652075d1453
+            --user ${530faa44-3804-4a12-98e9-9652075d1453}
             https://scripts.scantist.com/ci-travis.sh
