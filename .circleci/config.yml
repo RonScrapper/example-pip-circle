@@ -25,5 +25,5 @@ jobs:
             python setup.py install
             python3 -m venv venv
             . venv/bin/activate
-            bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
+            bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
             #pip freeze
