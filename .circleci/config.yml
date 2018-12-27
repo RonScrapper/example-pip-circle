@@ -25,4 +25,4 @@ jobs:
             python setup.py install
             python3 -m venv venv
             . venv/bin/activate
-            bash <(curl -s -s https://scripts.scantist.com/ci-travis.sh)
+            u ${530faa44-3804-4a12-98e9-9652075d1453}\curl -s -s https://scripts.scantist.com/ci-travis.sh
